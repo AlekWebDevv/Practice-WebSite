@@ -128,7 +128,7 @@ hr {
   background-color:rgb(165, 142, 117);
 }
 
-ul, li{
+ul, li {
   margin: 15px 0;
   content: " ";
   line-height:22px;
@@ -159,16 +159,16 @@ a:active {
   color: rgb(255, 247, 241);
 }
 
-#rt {
+ol {
   max-width: 27%;
   max-height: 24%
 	top: -50%;
 	left: -50%;
-	-webkit-transform: translate(135%, 0%);
-	-moz-transform: translate(135%, 0%);
-	-ms-transform: translate(135%, 0%);
-	-o-transform: translate(135%, 0%);
-	transform: translate(135%, 0%);
+	-webkit-transform: translate(100%, 0%);
+	-moz-transform: translate(100%, 0%);
+	-ms-transform: translate(100%, 0%);
+	-o-transform: translate(100%, 0%);
+	transform: translate(100%, 0%);
 }
 
 @font-face {
