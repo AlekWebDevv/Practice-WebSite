@@ -164,11 +164,11 @@ ol {
   max-height: 24%
 	top: -50%;
 	left: -50%;
-	-webkit-transform: translate(100%, 0%);
-	-moz-transform: translate(100%, 0%);
-	-ms-transform: translate(100%, 0%);
-	-o-transform: translate(100%, 0%);
-	transform: translate(100%, 0%);
+	-webkit-transform: translate(135%, 0%);
+	-moz-transform: translate(135%, 0%);
+	-ms-transform: translate(135%, 0%);
+	-o-transform: translate(135%, 0%);
+	transform: translate(135%, 0%);
 }
 
 @font-face {
