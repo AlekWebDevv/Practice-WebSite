@@ -1,0 +1,162 @@
+/* GENERAL STYLING */
+html, body {
+  margin: 0%; }
+
+body {
+  background-color: rgb(231, 222, 213);
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  color: rgb(10, 8, 6);
+}
+
+#box, footer {
+  text-align: center;
+  background-color: rgb(78, 67, 53);
+}
+
+footer {
+  margin-bottom: 0%;
+  box-shadow: 0 50vh 0 50vh rgb(78, 67, 53);
+}
+
+#ft {
+  font-size: 16px;
+  margin-top: 50px;
+  padding-top: 15px;
+  font-weight: 400;
+  color: rgb(216, 216, 216);
+}
+
+h1 {
+  font-family: Courgette;
+  margin-top: 0%;
+  margin-bottom: -0.7%;
+  font-size: 38px;
+  padding-top: 10px;
+}
+
+h2 {
+  margin-bottom: 55px;
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+h1, h2 {
+  color: rgb(216, 216, 216);
+}
+
+h3 {
+  font-family: Courgette;
+  font-size: 28px;
+  text-align: center;
+  color: rgb(12, 10, 8);
+}
+
+.list {
+  font-family: 'Oswald', sans-serif;
+  font-size: 19.5px;
+  font-weight: 550;
+  max-width: 29%;
+  max-height: 24%
+	top: -50%;
+	left: -50%;
+	-webkit-transform: translate(120%, 0%);
+	-moz-transform: translate(120%, 0%);
+	-ms-transform: translate(120%, 0%);
+	-o-transform: translate(120%, 0%);
+	transform: translate(120%, 0%);
+}
+
+#rt {
+  max-width: 27%;
+  max-height: 24%
+	top: -50%;
+	left: -50%;
+	-webkit-transform: translate(135%, 0%);
+	-moz-transform: translate(135%, 0%);
+	-ms-transform: translate(135%, 0%);
+	-o-transform: translate(135%, 0%);
+	transform: translate(135%, 0%);
+}
+
+/* IMG Styling */
+img.ri {
+  max-width: 24%;
+  max-height: 24%
+	top: -50%;
+	left: -50%;
+	-webkit-transform: translate(155%, 0%);
+	-moz-transform: translate(155%, 0%);
+	-ms-transform: translate(155%, 0%);
+	-o-transform: translate(155%, 0%);
+	transform: translate(155%, 0%);
+  border-radius: 7px;
+}
+
+/* CONTACT Styling */
+.contact-info {
+  font-size: 20px;
+  font-weight: 550;
+  max-width: 28%;
+  max-height: 24%
+	top: -50%;
+	left: -50%;
+	-webkit-transform: translate(95%, 0%);
+	-moz-transform: translate(95%, 0%);
+	-ms-transform: translate(95%, 0%);
+	-o-transform: translate(95%, 0%);
+	transform: translate(95%, 0%);
+}
+
+/* BR & HR Styling */
+hr {
+  height: 2px;
+  max-width: 29%;
+	-webkit-transform: translate(0%, 0%);
+	-moz-transform: translate(0%, 0%);
+	-ms-transform: translate(0%, 0%);
+	-o-transform: translate(0%, 0%);
+	transform: translate(0%, 0%);
+  background-color:rgb(165, 142, 117);
+}
+
+br {
+   display: block;
+   margin: 10px 0;
+   content: " ";
+   line-height:22px;
+}
+
+/* LINKS */
+a:link {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(0, 138, 0);
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color: rgb(61, 0, 228);
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  color: rgb(255, 115, 0);
+}
+
+a:active {
+  background-color: transparent;
+  text-decoration: underline;
+  color: rgb(255, 247, 241);
+}
+
+@font-face {
+  font-family: courgette;
+  src: url(Courgette-Regular.ttf);
+}
