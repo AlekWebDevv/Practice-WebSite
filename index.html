@@ -11,7 +11,7 @@
   <body>
     <main>
       <!--HEADER-->
-      <section id="box">
+      <section class="header" id="box">
         <h1>Aleksey Bykov</h1>
         <h2>Web Developer</h2>
       </section>
@@ -43,22 +43,55 @@
         <h3>About Aleksey</h3>
         <div class="group">
           <div class="item">
-            <p class="about">I was always fond of computers as a kid especially of the 'World Wide Web', so after 8+ years of construction experience, I decided to take web development into a consideration.</P>
-            <p class="about">Knowing what it will take to become a professional web developer, I looked no further than Thinkful's Online program,</P>
-            <p class="about">where I attained all the necessary and best practices for Full-stack Web development.</P>
-            <p class="about">I am very excited to work with other programmers!</p>
+            <div class="about-p">
+              <p>I was always fond of computers as a kid especially of the 'World Wide Web', so after 8+ years of construction experience, I decided to take web development into a consideration.</P>
+              <p>Knowing what it will take to become a professional web developer, I looked no further than Thinkful's Online program,</P>
+              <p>where I attained all the necessary and best practices for Full-stack Web development.</P>
+              <p>I am very excited to work with other programmers!</p>
+            </div>
           </div>
         </div>
       </section>
       <hr>
+      <!--PROJECTS-->
+      <section id="projects">
+        <h3 class="pr-h3">My Projects</h3>
+        <hr class="hr-project">
+        <div class="group">
+          <div class="item">
+          </div>
+        </div>
+      </section>
       <!--CONTACT-->
       <section id="contact">
         <h3>Contact Aleksey</h3>
+        <hr class="hr-contact">
         <div class="group">
           <div class="item">
-            <p class="contact">Let me create a website that is effective for the best results, if you are looking to hire a web developer please Contact Me!</p>
+            <div class="contact-p">
+              <p>Let me create a website that is effective for the best results, if you are looking to hire a web developer please Contact Me!</p>
+            </div>
           </div>
         </div>
+      </section>
+      <!-- Contact Form -->
+      <section class="contact-form">
+        <h2>Contact Form</h2>
+        <div class="group-contact">
+          <div class="item-contact">
+            <form action="#" method="POST">
+              <label for="user-name">Name:</label>
+              <input id="user-name" type="text" name="name">
+
+              <label for="user-email">Email:</label>
+              <input id="user-email" type="text" name="email">
+
+              <label for="user-message">Message:</label>
+              <textarea id="user-message" name="message"></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>  
       </section>
       <!--LINKS-->
       <section class="contact-info">
@@ -68,18 +101,9 @@
           <li>bykalex300@gmail.com</li>
         </ol>
       </section>
-      <!--PROJECTS-->
-      <section id="projects">
-        <h3 class="pr-h3">My Projects</h3>
-        <hr class="hr-style">
-        <div class="group">
-          <div class="item">
-          </div>
-        </div>
-      </section>
       <!--FOOTER-->
       <footer>
-        <p id="ft">copyright</p>
+        <p id="ft">Aleksey Bykov</p>
       </footer>
     </main>
     <script src="script.js"></script>
