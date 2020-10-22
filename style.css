@@ -16,22 +16,18 @@ p.intro {
   padding-left: 11.5%;
 }
 
-p.about {
+p {
   font-family: 'Oswald', sans-serif;
   font-weight: 550;
   font-size: 20px;
-  max-width: 37%;
+  max-width: 80%;
   color: rgb(10, 8, 6);
   padding-left: 32%;
 }
 
-p.contact {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 550;
-  font-size: 20px;
-  max-width: 46%;
-  color: rgb(10, 8, 6);
-  padding-left: 27%;
+.about-p {
+  margin-left: -24%;
+  max-width: 114%;
 }
 
 #box, footer {
@@ -47,7 +43,7 @@ footer {
 #ft {
   font-size: 16px;
   margin-top: -10px;
-  margin-left: 48%;
+  margin-left: 16%;
   padding-top: 15px;
   font-weight: 400;
   color: rgb(216, 216, 216);
@@ -63,14 +59,14 @@ h1 {
   color: rgb(255, 255, 255);
 }
 
-h2 {
+section.header h2 {
   margin-bottom: 55px;
   font-size: 26px;
   font-weight: 300;
   padding-bottom: 10px;
 }
 
-h1, h2 {
+h1, section.header h2 {
   color: rgb(216, 216, 216);
   text-align: center;
 }
@@ -102,13 +98,48 @@ img.ri {
 }
 
 /* CONTACT Styling */
-.contact-info {
-  font-size: 20px;
+.contact-p {
+  margin-left: -24%;
+  max-width: 114%;
+  font-family: 'Oswald', sans-serif;
   font-weight: 550;
-  max-width: 28%;
-  max-height: 24%;
-  margin-bottom: 50px;
-  margin-top: -20px;
+  font-size: 20px;
+  color: rgb(10, 8, 6);
+}
+
+form {
+  max-width: 600px;
+  padding-right: 18px;
+  padding-left: 12px;
+}
+
+.group-contact {
+  display: flex;
+  align-items: center;
+}
+
+.item-contact {
+  flex: 1;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form label {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+}
+
+main section.contact-form h2 {
+  font-size: 26px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 400;
+  margin: 0 10px;
+  margin-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 40px;
 }
 
 /* BR & HR Styling */
@@ -121,9 +152,13 @@ hr {
   background-color:rgb(165, 142, 117);
 }
 
-hr.hr-style {
+hr.hr-project {
   margin-top: 0px;
-  margin-bottom: 50px;
+}
+
+hr.hr-contact {
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* LINKS */
@@ -165,7 +200,7 @@ ol li {
 
 .group {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -183,11 +218,31 @@ ol li {
 
 @media all and (min-width: 800px) {
   section, h1 {
-
     padding: 0 10%;
+  }
+  p {
+    max-width: 37%;
+    padding-left: 32%;
+  }
+  section.contact-form {
+    padding: 0 35%;
+    padding-bottom: 15px;
+  }
+  .about-p, .contact-p {
+  margin-left: 0;
   }
   .group {
     display: flex;
     flex-direction: column;
+  }
+  .contact-info {
+  font-size: 20px;
+  font-weight: 550;
+  max-width: 28%;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  }
+  form input, form textarea {
+  
   }
 }
