@@ -43,7 +43,7 @@ footer {
 #ft {
   font-size: 16px;
   margin-top: -10px;
-  margin-left: 16%;
+  margin-left: 13%;
   padding-top: 15px;
   font-weight: 400;
   color: rgb(216, 216, 216);
@@ -242,7 +242,7 @@ ol li {
   margin-bottom: 50px;
   margin-top: -20px;
   }
-  form input, form textarea {
-  
+  #ft {
+  margin-left: 16%;
   }
 }
