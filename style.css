@@ -49,13 +49,19 @@ p {
   padding-left: 32%;
 }
 
+.pr {
+  margin-left: -90px;
+}
+
 p.pr {
+  display: flex;
   font-family: Courgette;
   font-size: 20px;
   color: rgb(12, 10, 8);
   margin-bottom: 7px;
-  margin-right: 15px;
-  max-width: 600px;
+  margin-right: -60px;
+  margin-left: 15px;
+  max-width: 250px;
 }
 
 .about-p {
@@ -160,8 +166,14 @@ img.ri {
 }
 img.pi {
   margin-top: 30%;
-  width: 62%;
+  margin-right: 10px;
+  margin-left: 8px;
+  width: 100%;
   border-radius: 9px;
+}
+.pr-img {
+  margin-right: 0;
+  padding-left: 20px;
 }
 
 /* CONTACT Styling */
@@ -410,6 +422,17 @@ h3.ri {
 }
 
 /*            Desktop              */
+@media all and (min-width: 550px) {
+  img.ri {
+  margin-top: 27%
+  }
+}
+@media all and (max-width: 550px) {
+  .pr-img {
+  padding-left: 60px;
+  }
+}
+
 @media all and (min-width: 800px) {
   img.ri {
   margin-top: 22%
@@ -417,13 +440,17 @@ h3.ri {
   img.pi {
     width: 70%;
     margin-top: 5%;
-    margin-left: 13%;
+    margin-left: 8%;
     margin-bottom: -13%;
     border-radius: 14px;
+    margin-right: 0;
   }
   p {
     max-width: 37%;
     padding-left: 32%;
+  }
+  .pr {
+  margin-left: 4%;
   }
   p.pr {
   font-size: 22px;
@@ -434,8 +461,12 @@ h3.ri {
     padding: 0 35%;
     padding-bottom: 15px;
   }
-  .about-p, .contact-p {
+  .contact-p {
   margin-left: 0;
+  }
+  .about-p {
+  max-width: 70%;
+  margin-left: 15%;
   }
   .group {
     flex-direction: column;
