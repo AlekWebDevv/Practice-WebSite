@@ -140,6 +140,9 @@ h4 {
 h4.title {
   text-decoration: underline;
 }
+h4.link {
+  margin-left: -38%;
+}
 
 ul.list {
   font-family: 'Oswald', sans-serif;
@@ -531,6 +534,9 @@ h3.ri {
   header h2 {
   font-size: 24px;
   font-weight: lighter;
+  }
+  h4.link {
+  margin-left: 132%;
   }
   .logo {
     grid-column: 2 / 3;
