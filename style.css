@@ -137,7 +137,6 @@ h4 {
   text-align: center;
   margin-bottom: 4px;
 }
-
 h4.title {
   text-decoration: underline;
 }
@@ -376,7 +375,7 @@ section.contact-info a:active {
 
 ol {
   margin-left: 9%;
-  margin-top: 35px;
+  margin-top: 10px;
   margin-bottom: 75px;
 }
 
